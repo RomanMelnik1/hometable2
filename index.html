@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Опитування</title>
+</head>
+<body>
+    <h1>Анкета з вивчення рівня знань учнів у питанні формування здорового способу життя</h1>
+		<h2>Перед початком тестувань, введіть будьласка своі данні</h2>
+		 <form method="post" action="https://formspree.io/melnik22222@gmail.com">
+				<label>Ваше Ім'я:
+					<input type="text" name="ім'я-клієнта" required>
+				</label>
+				<label>Ваш пароль:
+					<input type="password" name="пароль-клієнта" required>
+				</label>
+				<label>Ваш Email:
+					<input type="email" name="електронна-адреса-клієнта" required>
+				</label>
+			<h2>Оберіть будьласка одну з відповідей, яка вам підходить</h2>
+			<h3>1)Вкажіть будьласка ваш вік</h3>
+				<label>до 17 років
+					<input type="checkbox" name="сімнадцять" checked>
+				</label>
+				<label>від 17 до 20 років
+					<input type="checkbox" name="сімнадцять-дадцять">
+				</label>
+				<label>від 20 і більше
+					<input type="checkbox" name="двадцять+">
+				</label>
+			<h3>2) Як ви вважаєте, чи потрібні людині знання про здоровий спосіб життя?</h3>
+				<label>Так
+					<input type="checkbox" name="так" checked>
+				</label>
+				<label>Ні
+					<input type="checkbox" name="ні">
+				</label>
+				<label>Не замислювався
+					<input type="checkbox" name="напевно">
+				</label>
+			<h3>3)Скільки цигарок в день ви палите</h3>
+				<label>Оберіть кількість
+					<input type="number" name="кількість-сигарет" value="1" min="0" max="20">
+				</label>
+			<h3>4) Чи займаєтеся Ви спортом?</h3>
+				<label>Так
+					<input type="radio" name="так" checked>
+				</label>
+				<label>Ні
+					<input type="radio" name="ні">
+				</label>
+				<label>Не замислювався
+					<input type="radio" name="напевно">
+				</label>
+				<label>Бракує коштів
+					<input type="radio" name="бракує-коштів">
+				</label>
+			<h3>5) Чи хотіли б Ви позбутися шкідливих звичок?</h3>
+				<label>Так
+					<input type="radio" name="так" checked>
+				</label>
+				<label>Ні
+					<input type="radio" name="ні">
+				</label>
+				<label>Не замислювався
+					<input type="radio" name="напевно">
+				</label>
+			<h3>6) Чи хотіли б Ви у майбутньому вести здоровий спосіб життя?</h3>
+				<label>Так
+					<input type="radio" name="так" checked>
+				</label>
+				<label>Ні
+					<input type="radio" name="ні">
+				</label>
+			<h2>Ваші побажання</h2>
+				<label>
+					<textarea type="comment"></textarea>
+				</label>
+				<input type="submit" value="Відправити">
+				<input type="reset" value="Відмінити">
+		</form>
+		<br>
+		<a href="table.html">Перейти до таблиці</a>
+    
+</body>
+</html>
